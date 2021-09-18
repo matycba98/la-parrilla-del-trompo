@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.animate__animated.animate__pulse{
+    --animate-duration: 2s;
+}
+:root {
+    --animate-duration: 800ms;
+    --animate-delay: 0.9s;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    background-image: url(../multimedia/fondo.png);
+    text-align: center;
+}
+
+main {
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+    text-align: -webkit-center;
+}
+
+main section {
+    width: 30%;
+    background-color: rgba(199, 196, 196, 0.198);
+    padding: 50px;
+    height: 300px;
+    margin: 40px;
+    border-radius: 100px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    display: grid;
+    flex: wrap;
+    justify-content:space-evenly ;
+}
+
+main section:hover {
+    box-shadow: 20px 20px 30px rgb(61, 0, 13);
+}
+
+.nosotros {
+    display: flex;
+    flex-direction: row;
+    margin-top: 150px;
+}
+
+.nosotros section {
+    padding: 50px;
+    height: auto;
+    margin: 40px;
+    border-radius: 100px;
+}
+
+.servicios {
+    display: grid;
+    grid-template-columns: 300px 300px;
+    grid-gap: 50px;
+}
+
+.servicios section {
+    padding: 50px;
+    height: 300px;
+    margin: 40px;
+    border-radius: 100px;
+    width: 100%;
+}
+
+.menu section {
+    padding: 50px;
+    height: auto;
+    margin: 40px;
+    border-radius: 100px;
+}
+
+.bebidas section {
+    padding: 50px;
+    height: auto;
+    margin: 40px;
+    border-radius: 100px;
+}
+
+.bebidas {
+    margin: 2rem;
+    align-items: center;
+}
+
+footer {
+    color: white;
+    background: linear-gradient(black, black, rgb(61, 0, 13));
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 40px;
+}
+
+nav ul li a {
+    color: white;
+    font-family: 'Besley', serif;
+    font-weight: 500;
+    font-style: italic;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+nav ul li a:hover{
+    color: rgb(61, 0, 13);
+    transition: .5s;
+}
+
+.titulo a{
+    color: rgb(61, 0, 13);
+    background-color: rgba(0, 0, 0, 0.267);
+    font-family: 'Permanent Marker', cursive;
+    text-decoration: none;
+    letter-spacing: 1.5px;
+    font-size: 2em;
+}
+.titulo a:hover{
+color: rgb(61, 0, 13);
+transition: .5s;
+}
+
+h5 {
+    color: white;
+    font-family: 'Besley', serif;
+}
+
+.blanco {
+    color: white;
+    font-family: 'Besley', serif;
+}
+
+.contacto a {
+    color: white;
+    font-family: 'Permanent Marker', cursive;
+    text-decoration: none;
+    font-size: 1.5em;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgb(61, 0, 13);
+    border-radius: 5px;
+}
+
+.contacto a:hover{
+    color: rgb(93, 93, 93);
+    transition: .5s;
+    }
+
+fieldset {
+    color: white;
+    background-color: rgba(61, 0, 13, 0.438)
+}
+
+form {
+    font-family: 'Permanent Marker', cursive;
+    display: inline-block;
+}
+
+.images img {
+    width: 600px;
+    margin: 50px;
+    border: 5px solid;
+    border-radius: 5px;
+}
+
+.images img:hover {
+    box-shadow: 5px 5px 10px black;
+}
+
+.titulonosotros {
+    background-color: rgba(61, 0, 13, 0.383);
+    color: white;
+    border-radius: 20px;
+    display: inline-block;
+    font-family: 'Permanent Marker', cursive;
+}

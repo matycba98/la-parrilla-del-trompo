@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Besley:ital,wght@1,900&family=Permanent+Marker&family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Allison&family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"">
+    <title>La parrilla del trompo</title>
+</head>
+<body>
+    <h1 class="titulo animate__animated animate__pulse animate__infinite	infinite" "><a href="./index.html">LA PARRILLA DEL TROMPO</a></h1>
+    <nav>
+        <ul>
+            <li><a href="../pages/nosotros.html">Nosotros</a></li>
+            <li><a href="../pages/servicios.html">Servicios</a></li>
+            <li><a href="../pages/menu.html">Menu</a></li>
+            <li><a href="../pages/bebidas.html">Bebidas</a></li>
+        </ul>
+    </nav>
+    <div>
+        <form action="enviar.php" method="get"> <!-- Es de ejemplo, despues lo vamos a ver mas adelante ne java script -->
+            <fieldset>
+            <label for="nombre">Nombre</label> <!-- el for hacer que se coencte como input, ponerlo si o si -->
+            <br>
+            <input type="text" id="nombre" placeholder="Nombre"> <!-- tipo texto -->
+            <br><br>
+            <label for="email">Email</label>
+            <br>
+        <input type="email" id="email" required placeholder="mail"> <!-- el required para que lo compelte si o si -->
+            <br><br>
+            <input type="radio" name="personas" id="hombre"> 2/3 personas
+            <input type="radio" name="personas" id="mujer"> 4/5 personas
+            <input type="radio" name="personas" id="tractor"> +5 personas
+            <br><br>
+            <input type="checkbox" name="acepta" id=""> Recibir la carta al mail
+            <br><br>
+            <label for="paises">Servicio</label>
+            <select name="paises" id="paises">
+                <option value="Take Away">Take Away</option>
+                <option value="Envio a domicilio" selected>Envio a domicilio</option> <!-- el selected es para que ya aparezca puesto ese primero -->
+                <option value="Catering para eventos">Catering para eventos</option>
+            </select>
+            <br><br>
+            <p>Datos adicionales</p>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Añade informacion extra aqui"></textarea>
+            <br><br>
+            <input type="submit" value="Enviar ahora">
+            <input type="reset" value="Limpiar">
+        </fieldset>
+    </div>
+    <footer>© Copyright 2021 La parrilla del trompo - Todos los derechos reservados</footer>
+</body>
+</html>
