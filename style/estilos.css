@@ -18,7 +18,7 @@ html {
 
 body {
     background-image: url(../multimedia/fondo.png);
-    text-align: center;
+    text-align: center!important;
 }
 
 main {
@@ -190,3 +190,19 @@ form {
     display: inline-block;
     font-family: 'Permanent Marker', cursive;
 }
+
+.bg-light {
+    --bs-bg-opacity: 0 !important;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.navbar-nav {
+    float: left;
+    margin: 0;
+    left: 50%;
+    transform: translatex(-50%);
+    position: relative;
+    }
