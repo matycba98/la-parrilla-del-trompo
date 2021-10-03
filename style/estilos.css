@@ -48,26 +48,26 @@ main section:hover {
     box-shadow: 20px 20px 30px rgb(61, 0, 13);
 }
 
-.nosotros {
+.main__nosotros {
     display: flex;
     flex-direction: row;
     margin-top: 150px;
 }
 
-.nosotros section {
+.main__nosotros section {
     padding: 50px;
     height: auto;
     margin: 40px;
     border-radius: 100px;
 }
 
-.servicios {
+.main__servicios {
     display: grid;
     grid-template-columns: 300px 300px;
     grid-gap: 50px;
 }
 
-.servicios section {
+.main__servicios section {
     padding: 50px;
     height: 300px;
     margin: 40px;
@@ -75,21 +75,21 @@ main section:hover {
     width: 100%;
 }
 
-.menu section {
+.main__menu section {
     padding: 50px;
     height: auto;
     margin: 40px;
     border-radius: 100px;
 }
 
-.bebidas section {
+.main__bebidas section {
     padding: 50px;
     height: auto;
     margin: 40px;
     border-radius: 100px;
 }
 
-.bebidas {
+.main__bebidas {
     margin: 2rem;
     align-items: center;
 }
