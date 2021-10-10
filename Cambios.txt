@@ -1,0 +1,2 @@
+-Se aplico Keywords a todas las paginas
+-Se aplico descripcion a todas las paginas
