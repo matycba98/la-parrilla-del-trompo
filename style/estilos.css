@@ -35,7 +35,7 @@ main section {
     padding: 50px;
     height: 300px;
     margin: 40px;
-    border-radius: 100px;
+    border-radius: 5px;
     justify-content: center;
     display: flex;
     flex-direction: column;
@@ -90,7 +90,6 @@ main section:hover {
 }
 
 .main__bebidas {
-    margin: 2rem;
     align-items: center;
 }
 
@@ -179,9 +178,69 @@ form {
     border-radius: 5px;
 }
 
+ @media (max-width: 600px){
+    .images img {
+        width: 300px;
+    } 
+    .main__nosotros {
+        display: grid;
+        grid-template-columns: auto;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .main__nosotros section {
+        width: 100%;
+        margin: 0 !important;
+        padding: 10px !important;
+        margin-bottom: 20px !important;
+    }
+    .main__servicios {
+        display: grid;
+        grid-template-columns: auto;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .main__servicios section {
+        width: 100%;
+        margin: 0 !important;
+        padding: 10px !important;
+        margin-bottom: 20px !important;
+    }
+    .main__menu {
+        display: grid;
+        grid-template-columns: auto;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .main__menu section {
+        width: 100%;
+        margin: 0 !important;
+        padding: 10px !important;
+        margin-bottom: 20px !important;
+    }
+    .main__bebidas {
+        display: grid;
+        grid-template-columns: auto;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .main__bebidas section {
+        width: 100%;
+        margin: 0 !important;
+        padding: 10px !important;
+        margin-bottom: 20px !important;
+    }
+}
+
 .images img:hover {
     box-shadow: 5px 5px 10px black;
 }
+
+
 
 .titulonosotros {
     background-color: rgba(61, 0, 13, 0.383);
